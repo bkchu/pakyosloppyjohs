@@ -1,0 +1,12 @@
+[
+  {
+    "sectionTitle": "The first date",
+    "sectionDate": "12/06/17",
+    "sectionImageFileNames": ["date-1", "date-2", "date-3"]
+  },
+  {
+    "sectionTitle": "Double dates!!",
+    "sectionDate": "02/14/18",
+    "sectionImageFileNames": ["friends-1", "friends-2"]
+  }
+]

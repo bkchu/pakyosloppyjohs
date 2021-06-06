@@ -44,6 +44,7 @@ const Home = () => {
                   layout="fullWidth"
                   objectFit="cover"
                   objectPosition="right"
+                  style={{ position: "absolute !important" }}
                 />
               }
             />

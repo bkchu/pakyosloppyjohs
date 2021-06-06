@@ -28,7 +28,14 @@ const OurStory = () => {
               <div className="flex w-full justify-center">
                 {section.sectionImageFileNames.map((fileName) => (
                   <div className="w-60 mr-12 last:mr-0">
-                    <Polaroid image={<Image fileName={fileName} />} />
+                    <Polaroid
+                      image={
+                        <Image
+                          fileName={fileName}
+                          style={{ position: "absolute !important" }}
+                        />
+                      }
+                    />
                   </div>
                 ))}
               </div>

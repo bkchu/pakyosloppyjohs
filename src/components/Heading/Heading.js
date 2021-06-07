@@ -23,6 +23,19 @@ const Heading = ({
     h5: clsx("text-[12px]", "leading-none", "tracking-wide"),
     p: clsx("font-serif", "text-base", "my-2", "leading-golden"),
     body: clsx("font-serif", "text-2xl"),
+    "body-md": clsx(
+      "font-serif",
+      "text-[32px]",
+      "font-normal",
+      "leading-[48px]"
+    ),
+    "body-large": clsx(
+      "font-serif",
+      "text-[56px]",
+      "font-normal",
+      "leading-[56px]"
+    ),
+
     eyebrow: clsx("text-base", "font-bold", "uppercase", "tracking-widest"),
   };
 

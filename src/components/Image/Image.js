@@ -20,6 +20,7 @@ const Image = ({ fileName, ...props }) => {
     "date-3": "Date with Sam 3",
     "friends-1": "With close friends 1",
     "friends-2": "With close friends 2",
+    "the-wedding-page": "the couple's rings"
   };
 
   const data = useStaticQuery(graphql`

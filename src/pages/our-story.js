@@ -32,7 +32,7 @@ const OurStory = () => {
                       image={
                         <Image
                           fileName={fileName}
-                          style={{ position: "absolute !important" }}
+                          className="polaroid-absolute"
                         />
                       }
                     />

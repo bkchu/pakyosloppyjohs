@@ -38,6 +38,7 @@ const TheNavbar = () => {
         <Link to="/">Sam & Grace</Link>
       </Heading>
 
+      {/* mobile menu icon */}
       <Button
         variant="icon"
         onClick={() => setIsOpen(!isOpen)}

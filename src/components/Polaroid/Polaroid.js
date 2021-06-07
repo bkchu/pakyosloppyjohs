@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { Link } from "gatsby";
 import React from "react";
 import Heading from "../Heading/Heading";
+import "./Polaroid.css";
 
 const Polaroid = ({
   link = null,
@@ -33,7 +34,7 @@ const Polaroid = ({
         )}
       </div>
 
-      <Heading h="h4" as="p" className="text-center mb-[8%] text-">
+      <Heading h="h4" as="p" className="text-center mb-[8%]">
         {text}
       </Heading>
     </div>

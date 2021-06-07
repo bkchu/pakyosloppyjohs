@@ -29,7 +29,7 @@ const Home = () => {
               Sam & Grace
             </Heading>
 
-            <Button className="mt-4">Livestream</Button>
+            <Button className="mt-16">Livestream</Button>
           </div>
 
           <div className="grid grid-cols-3 gap-10 m-12">

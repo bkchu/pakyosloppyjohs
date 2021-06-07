@@ -8,24 +8,24 @@ import TheNavigationLayout from "../layouts/TheNavigationLayout";
 const Registry = () => {
   return (
     <TheNavigationLayout>
-      <Grid className="min-h-[calc(100vh-96px)]">
-        <Grid.Span className="h-full" start={2} span={5}>
-          <div className="h-full flex flex-col items-end p-16 pt-32">
-            <Image
-              fileName="registry-page"
-              className="w-full rounded-3xl shadow-photo"
-            />
-          </div>
-        </Grid.Span>
-        <Grid.Span className="h-full" start={7} span={5}>
-          <div className="h-full flex flex-col items-start pt-32">
-            <Heading h="body-md" as="p" className="mb-4">
-              Celebrating our marriage with you is the greatest gift we could
-              ask for! However, for friends and family who have expressed an
-              interest, a contribution to our honeymoon fund would be much
-              appreciated!
-            </Heading>
-            <Button>Go To The Registry</Button>
+      <Grid>
+        <Grid.Span className="h-full" start={2} span={10}>
+          <div className="flex justify-center">
+            <div className="w-2/5 mr-16 pt-32">
+              <Image
+                fileName="registry-page"
+                className="rounded-3xl shadow-photo"
+              />
+            </div>
+            <div className="h-full flex flex-col items-start pt-32 max-w-[500px]">
+              <Heading h="body-md" as="p" className="mb-4">
+                Celebrating our marriage with you is the greatest gift we could
+                ask for! However, for friends and family who have expressed an
+                interest, a contribution to our honeymoon fund would be much
+                appreciated!
+              </Heading>
+              <Button>Go To The Registry</Button>
+            </div>
           </div>
         </Grid.Span>
       </Grid>

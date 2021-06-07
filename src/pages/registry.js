@@ -3,7 +3,6 @@ import Button from "../components/Button/Button";
 import Grid from "../components/Grid/Grid";
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image/Image";
-import Spacer from "../components/Spacer/Spacer";
 import TheNavigationLayout from "../layouts/TheNavigationLayout";
 
 const Registry = () => {

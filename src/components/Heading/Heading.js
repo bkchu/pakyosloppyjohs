@@ -10,8 +10,8 @@ const Heading = ({
 }) => {
   const baseHeadingClasses = clsx(color);
   const headingClassNames = {
-    h1: clsx("font-serif", "text-[56px]", "font-bold", "leading-tight"),
-    h2: clsx("font-serif", "text-3xl", "font-bold"),
+    h1: clsx("font-serif", "text-3xl", "md:text-[56px]", "font-bold", "leading-tight"),
+    h2: clsx("font-serif", "text-2xl", "font-bold"),
     h3: clsx(
       "font-serif",
       "font-bold",

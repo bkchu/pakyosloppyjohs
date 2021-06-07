@@ -29,10 +29,11 @@ const Home = () => {
               Sam & Grace
             </Heading>
 
-            <Button className="mt-16">Livestream</Button>
+            <Button className="my-16">Livestream</Button>
           </div>
-
-          <div className="grid grid-cols-3 gap-10 m-12">
+        </Grid.Span>
+        <Grid.Span start={2} end={12}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <Polaroid
               link="/our-story"
               text="OUR STORY"

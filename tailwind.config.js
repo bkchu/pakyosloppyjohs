@@ -5,10 +5,10 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      laptop: "1024px",
-    },
     extend: {
+      screens: {
+        laptop: "1024px",
+      },
       backgroundImage: {
         "yellow-filter":
           "linear-gradient(0deg, rgba(231, 190, 150, 0.2), rgba(231, 190, 150, 0.2))",

@@ -12,13 +12,14 @@ const TheWedding = () => {
       <Grid className="min-h-[calc(100vh-96px)]">
         <Grid.Span className="h-full" start={2} span={4}>
           <div className="h-full flex flex-col items-end justify-center">
-            <Heading h="body-large" as="p" className="text-right">
+            <Heading h="body-md" as="p" className="text-right">
               We can’t say we do without all of you! Please join us, virtually,
               as we exchange our vows.
             </Heading>
+            <Spacer size="16" />
             <Image
               fileName="the-wedding-page"
-              className="mt-8 w-full rounded-3xl shadow-photo"
+              className="w-full rounded-3xl shadow-photo"
             />
           </div>
         </Grid.Span>

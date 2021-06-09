@@ -1,17 +1,17 @@
 import clsx from "clsx";
 import { Link } from "gatsby";
-import React from "react";
+import React, { forwardRef } from "react";
 import Heading from "../Heading/Heading";
 import "./Polaroid.css";
 
-const Polaroid = ({
+const Polaroid = forwardRef(({
   link = null,
   image,
   text = <>&nbsp;</>,
   className,
   alt = "generic alt message",
   ...props
-}) => {
+}, ref) => {
   const _containerClassNames = clsx(
     "bg-gradient-to-b",
     "from-[#ece9e6]",
@@ -25,7 +25,7 @@ const Polaroid = ({
   );
 
   const renderContent = (
-    <div className={_containerClassNames} {...props}>
+    <div className={_containerClassNames} ref={ref} {...props}>
       <div className="aspect-w-1 aspect-h-1 mb-[10%]">
         {typeof image === "string" ? (
           <img className="w-full h-full object-cover" src={image} alt={alt} />
@@ -49,6 +49,6 @@ const Polaroid = ({
   };
 
   return renderPolaroid();
-};
+});
 
 export default Polaroid;

@@ -25,9 +25,9 @@ const OurStory = () => {
             </Grid.Span>
             <Spacer size="3" />
             <Grid.Span start={1} span={12} className="mb-32 last:mb-0">
-              <div className="flex w-full justify-center">
+              <div className="flex flex-col md:flex-row w-full items-center justify-center md:p-12">
                 {section.sectionImageFileNames.map((fileName) => (
-                  <div className="w-60 mr-12 last:mr-0">
+                  <div className="w-full md:w-60 p-12 md:p-0 md:mr-12 md:last:mr-0">
                     <Polaroid
                       image={
                         <Image

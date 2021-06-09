@@ -5,7 +5,7 @@ const TheNavigationLayout = ({ children }) => {
   return (
     <>
       <TheNavbar />
-      <main className="py-24">
+      <main className="pt-24">
         <div className="col-start-2 col-span-10">{children}</div>
       </main>
     </>

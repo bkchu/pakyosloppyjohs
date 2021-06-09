@@ -7,10 +7,17 @@ const Heading = ({
   className,
   color = "text-text",
   children,
+  ...props
 }) => {
   const baseHeadingClasses = clsx(color);
   const headingClassNames = {
-    h1: clsx("font-serif", "text-3xl", "md:text-[56px]", "font-bold", "leading-tight"),
+    h1: clsx(
+      "font-serif",
+      "text-3xl",
+      "md:text-[56px]",
+      "font-bold",
+      "leading-tight"
+    ),
     h2: clsx("font-serif", "text-2xl", "font-bold"),
     h3: clsx(
       "font-serif",
@@ -48,6 +55,7 @@ const Heading = ({
   return React.createElement(as, {
     className: _classNames,
     children,
+    ...props,
   });
 };
 

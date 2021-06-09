@@ -13,6 +13,51 @@ const gridClasses = [
   "grid-cols-12",
 ]
 
+const smGridClasses = [
+  "sm:grid-cols-1",
+  "sm:grid-cols-2",
+  "sm:grid-cols-3",
+  "sm:grid-cols-4",
+  "sm:grid-cols-5",
+  "sm:grid-cols-6",
+  "sm:grid-cols-7",
+  "sm:grid-cols-8",
+  "sm:grid-cols-9",
+  "sm:grid-cols-10",
+  "sm:grid-cols-11",
+  "sm:grid-cols-12",
+]
+
+const mdGridClasses = [
+  "md:grid-cols-1",
+  "md:grid-cols-2",
+  "md:grid-cols-3",
+  "md:grid-cols-4",
+  "md:grid-cols-5",
+  "md:grid-cols-6",
+  "md:grid-cols-7",
+  "md:grid-cols-8",
+  "md:grid-cols-9",
+  "md:grid-cols-10",
+  "md:grid-cols-11",
+  "md:grid-cols-12",
+]
+
+const lgGridClasses = [
+  "lg:grid-cols-1",
+  "lg:grid-cols-2",
+  "lg:grid-cols-3",
+  "lg:grid-cols-4",
+  "lg:grid-cols-5",
+  "lg:grid-cols-6",
+  "lg:grid-cols-7",
+  "lg:grid-cols-8",
+  "lg:grid-cols-9",
+  "lg:grid-cols-10",
+  "lg:grid-cols-11",
+  "lg:grid-cols-12",
+]
+
 const laptopGridClasses = [
   "laptop:grid-cols-1",
   "laptop:grid-cols-2",
@@ -42,6 +87,51 @@ const startClasses = [
   "col-start-11",
   "col-start-12",
 ]
+
+const smStartClasses = [
+  "sm:grid-start-1",
+  "sm:grid-start-2",
+  "sm:grid-start-3",
+  "sm:grid-start-4",
+  "sm:grid-start-5",
+  "sm:grid-start-6",
+  "sm:grid-start-7",
+  "sm:grid-start-8",
+  "sm:grid-start-9",
+  "sm:grid-start-10",
+  "sm:grid-start-11",
+  "sm:grid-start-12",
+];
+
+const mdStartClasses = [
+  "md:grid-start-1",
+  "md:grid-start-2",
+  "md:grid-start-3",
+  "md:grid-start-4",
+  "md:grid-start-5",
+  "md:grid-start-6",
+  "md:grid-start-7",
+  "md:grid-start-8",
+  "md:grid-start-9",
+  "md:grid-start-10",
+  "md:grid-start-11",
+  "md:grid-start-12",
+];
+
+const lgStartClasses = [
+  "lg:grid-start-1",
+  "lg:grid-start-2",
+  "lg:grid-start-3",
+  "lg:grid-start-4",
+  "lg:grid-start-5",
+  "lg:grid-start-6",
+  "lg:grid-start-7",
+  "lg:grid-start-8",
+  "lg:grid-start-9",
+  "lg:grid-start-10",
+  "lg:grid-start-11",
+  "lg:grid-start-12",
+];
 
 const laptopStartClasses = [
   "laptop:col-start-1",
@@ -73,6 +163,51 @@ const endClasses = [
   "col-end-12",
 ]
 
+const smEndClasses = [
+  "sm:grid-end-1",
+  "sm:grid-end-2",
+  "sm:grid-end-3",
+  "sm:grid-end-4",
+  "sm:grid-end-5",
+  "sm:grid-end-6",
+  "sm:grid-end-7",
+  "sm:grid-end-8",
+  "sm:grid-end-9",
+  "sm:grid-end-10",
+  "sm:grid-end-11",
+  "sm:grid-end-12",
+];
+
+const mdEndClasses = [
+  "md:grid-end-1",
+  "md:grid-end-2",
+  "md:grid-end-3",
+  "md:grid-end-4",
+  "md:grid-end-5",
+  "md:grid-end-6",
+  "md:grid-end-7",
+  "md:grid-end-8",
+  "md:grid-end-9",
+  "md:grid-end-10",
+  "md:grid-end-11",
+  "md:grid-end-12",
+];
+
+const lgEndClasses = [
+  "lg:grid-end-1",
+  "lg:grid-end-2",
+  "lg:grid-end-3",
+  "lg:grid-end-4",
+  "lg:grid-end-5",
+  "lg:grid-end-6",
+  "lg:grid-end-7",
+  "lg:grid-end-8",
+  "lg:grid-end-9",
+  "lg:grid-end-10",
+  "lg:grid-end-11",
+  "lg:grid-end-12",
+];
+
 const laptopEndClasses = [
   "laptop:col-end-1",
   "laptop:col-end-2",
@@ -103,6 +238,51 @@ const spanClasses = [
   "col-span-12",
 ]
 
+const smSpanClasses = [
+  "sm:grid-span-1",
+  "sm:grid-span-2",
+  "sm:grid-span-3",
+  "sm:grid-span-4",
+  "sm:grid-span-5",
+  "sm:grid-span-6",
+  "sm:grid-span-7",
+  "sm:grid-span-8",
+  "sm:grid-span-9",
+  "sm:grid-span-10",
+  "sm:grid-span-11",
+  "sm:grid-span-12",
+];
+
+const mdSpanClasses = [
+  "md:grid-span-1",
+  "md:grid-span-2",
+  "md:grid-span-3",
+  "md:grid-span-4",
+  "md:grid-span-5",
+  "md:grid-span-6",
+  "md:grid-span-7",
+  "md:grid-span-8",
+  "md:grid-span-9",
+  "md:grid-span-10",
+  "md:grid-span-11",
+  "md:grid-span-12",
+];
+
+const lgSpanClasses = [
+  "lg:grid-span-1",
+  "lg:grid-span-2",
+  "lg:grid-span-3",
+  "lg:grid-span-4",
+  "lg:grid-span-5",
+  "lg:grid-span-6",
+  "lg:grid-span-7",
+  "lg:grid-span-8",
+  "lg:grid-span-9",
+  "lg:grid-span-10",
+  "lg:grid-span-11",
+  "lg:grid-span-12",
+];
+
 const laptopSpanClasses = [
   "laptop:col-span-1",
   "laptop:col-span-2",
@@ -119,36 +299,84 @@ const laptopSpanClasses = [
 ]
 
 export const getGridClasses = cols => {
-  const isLaptop = Array.isArray(cols)
+  const isArr = Array.isArray(cols)
 
-  return isLaptop
-    ? [gridClasses[cols[0] - 1], laptopGridClasses[cols[1] - 1]]
-    : [gridClasses[cols - 1], laptopGridClasses[cols - 1]]
+  return isArr
+    ? [
+        gridClasses[cols[0] - 1],
+        smGridClasses[cols[1] - 1],
+        mdGridClasses[cols[2] - 1],
+        lgGridClasses[cols[3] - 1],
+        laptopGridClasses[cols[4] - 1],
+      ]
+    : [
+        gridClasses[cols - 1],
+        smGridClasses[cols - 1],
+        mdGridClasses[cols - 1],
+        lgGridClasses[cols - 1],
+        laptopGridClasses[cols - 1],
+      ];
 }
 
 export const getColStartClasses = start => {
-  const isLaptop = Array.isArray(start)
+  const isArr = Array.isArray(start)
 
-  return isLaptop
-    ? [startClasses[start[0] - 1], laptopStartClasses[start[1] - 1]]
-    : [startClasses[start - 1], laptopStartClasses[start - 1]]
+  return isArr
+    ? [
+        startClasses[start[0] - 1],
+        smStartClasses[start[1] - 1],
+        mdStartClasses[start[2] - 1],
+        lgStartClasses[start[3] - 1],
+        laptopStartClasses[start[4] - 1],
+      ]
+    : [
+        startClasses[start - 1],
+        smStartClasses[start - 1],
+        mdStartClasses[start - 1],
+        lgStartClasses[start - 1],
+        laptopStartClasses[start - 1],
+      ];
 }
 
 export const getColEndClasses = end => {
-  const isLaptop = Array.isArray(end)
+  const isArr = Array.isArray(end)
 
-  return isLaptop
-    ? [endClasses[end[0] - 1], laptopEndClasses[end[1] - 1]]
-    : [endClasses[end - 1], laptopEndClasses[end - 1]]
+  return isArr
+    ? [
+        endClasses[end[0] - 1],
+        smEndClasses[end[1] - 1],
+        mdEndClasses[end[2] - 1],
+        lgEndClasses[end[3] - 1],
+        laptopEndClasses[end[4] - 1],
+      ]
+    : [
+        endClasses[end - 1],
+        smEndClasses[end - 1],
+        mdEndClasses[end - 1],
+        lgEndClasses[end - 1],
+        laptopEndClasses[end - 1],
+      ];
 }
 
 export const getColSpanClasses = span => {
   if (span === "full") {
     return ["col-span-full"]
   }
-  const isLaptop = Array.isArray(span)
+  const isArr = Array.isArray(span)
 
-  return isLaptop
-    ? [spanClasses[span[0] - 1], laptopSpanClasses[span[1] - 1]]
-    : [spanClasses[span - 1], laptopSpanClasses[span - 1]]
+  return isArr
+    ? [
+        spanClasses[span[0] - 1],
+        smSpanClasses[span[1] - 1],
+        mdSpanClasses[span[2] - 1],
+        lgSpanClasses[span[3] - 1],
+        laptopSpanClasses[span[4] - 1],
+      ]
+    : [
+        spanClasses[span - 1],
+        smSpanClasses[span - 1],
+        mdSpanClasses[span - 1],
+        lgSpanClasses[span - 1],
+        laptopSpanClasses[span - 1],
+      ];
 }

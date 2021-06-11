@@ -27,7 +27,7 @@ const TimelinePhoto = ({ fileName }) => {
 
   return (
     <a.div
-      className="w-full md:w-60 p-12 pt-4 md:p-0 md:mr-12 md:last:mr-0"
+      className="box-border w-full md:w-60 p-12 pt-4 md:p-0 md:mr-12 md:last:mr-0"
       {...photoSpringDef}
     >
       <Polaroid

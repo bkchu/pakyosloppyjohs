@@ -18,10 +18,10 @@ const TheWedding = () => {
 
   return (
     <TheNavigationLayout>
-      <Grid className="md:min-h-[calc(100vh-96px)]">
+      <Grid className="md:min-h-[calc(100vh-96px)] pb-24">
         <Grid.Span className="h-full" start={2} span={[10, 10, 4, 4, 4]}>
           <div className="h-full flex flex-col-reverse lg:flex-col items-end justify-center">
-            <Heading h="body-md" as="p" className="text-left lg:text-right">
+            <Heading h="body-md" as="p" className="text-left lg:text-right text-2xl">
               We can’t say we do without all of you! Please join us, virtually,
               as we exchange our vows.
             </Heading>

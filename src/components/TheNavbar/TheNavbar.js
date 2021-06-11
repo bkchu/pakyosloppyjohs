@@ -42,7 +42,7 @@ const TheNavbar = () => {
       <Button
         variant="icon"
         onClick={() => setIsOpen(!isOpen)}
-        className="block lg:hidden z-20"
+        className="block lg:hidden z-20 focus:outline-none"
       >
         {isOpen ? (
           // x icon

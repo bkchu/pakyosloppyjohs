@@ -8,10 +8,10 @@ import TheNavigationLayout from "../layouts/TheNavigationLayout";
 const Registry = () => {
   return (
     <TheNavigationLayout>
-      <Grid>
+      <Grid className="pb-24">
         <Grid.Span className="h-full" start={2} span={10}>
           <div className="flex flex-col lg:flex-row justify-center">
-            <div className="w-full lg:w-2/5 h-80 lg:h-full mr-16 pt-16">
+            <div className="w-full lg:w-2/5 h-[500px] lg:h-full mr-16 pt-16">
               <Image
                 fileName="registry-page"
                 className="rounded-3xl shadow-photo h-full"

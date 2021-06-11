@@ -25,11 +25,11 @@ const Registry = () => {
                 appreciated!
               </Heading>
               <Button
-              // href={() =>
-              //   document.assign(
-              //     "http://www.zola.com/registry/samandgraceinhawaii"
-              //   )
-              // }
+                href="http://www.zola.com/registry/samandgraceinhawaii"
+                target="_blank"
+                noreferrer="true"
+                noopener="true"
+                nofollow="true"
               >
                 Go To The Registry
               </Button>

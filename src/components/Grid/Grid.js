@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import clsx from "clsx";
 import {
   getGridClasses,
@@ -18,20 +18,26 @@ const Grid = ({ cols = 12, children, className = "" }) => {
   return <div className={_classNames}>{children}</div>;
 };
 
-const GridSpan = ({ start, end, span, children, className = "" }) => {
-  if (start === undefined) {
-    throw Error("Must have `start` value");
+const GridSpan = forwardRef(
+  ({ start, end, span, children, className = "", ...props }, ref) => {
+    if (start === undefined) {
+      throw Error("Must have `start` value");
+    }
+
+    const _classNames = clsx(
+      ...getColEndClasses(end),
+      ...getColSpanClasses(span),
+      ...getColStartClasses(start),
+      className
+    );
+
+    return (
+      <div className={_classNames} ref={ref} {...props}>
+        {children}
+      </div>
+    );
   }
-
-  const _classNames = clsx(
-    ...getColEndClasses(end),
-    ...getColSpanClasses(span),
-    ...getColStartClasses(start),
-    className
-  );
-
-  return <div className={_classNames}>{children}</div>;
-};
+);
 
 Grid.Span = GridSpan;
 

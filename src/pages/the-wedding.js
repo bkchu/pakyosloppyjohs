@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../components/Button/Button";
 import Grid from "../components/Grid/Grid";
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image/Image";
+import Input from "../components/Input/Input";
 import Spacer from "../components/Spacer/Spacer";
 import TheNavigationLayout from "../layouts/TheNavigationLayout";
 
 const TheWedding = () => {
+  const [isPasswordInputEnabled, setIsPasswordInputEnabled] = useState();
+
+  const onPasswordChange = (event) => {
+    if (event.target.value.toLowerCase().trim() === "pakyosloppyjohs") {
+      window.location.replace("https://www.wedhawaii.com/samuel-and-grace");
+    }
+  };
+
   return (
     <TheNavigationLayout>
       <Grid className="md:min-h-[calc(100vh-96px)]">
@@ -54,7 +63,19 @@ const TheWedding = () => {
               9:00pm CST
             </Heading>
             <Spacer size="6" />
-            <Button>Watch Virtually</Button>
+            {isPasswordInputEnabled ? (
+              <>
+                <Heading h="h3" as="p" color="text-blue">
+                  Please enter the password provided on your invitation to go to
+                  the livestreaming site.
+                </Heading>
+                <Input type="password" onChange={onPasswordChange} placeholder="Password"/>
+              </>
+            ) : (
+              <Button onClick={() => setIsPasswordInputEnabled(true)}>
+                Watch Virtually
+              </Button>
+            )}
           </div>
         </Grid.Span>
       </Grid>

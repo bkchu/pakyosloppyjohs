@@ -86,7 +86,7 @@ const TheNavbar = () => {
         } top-24 left-0 w-full p-3 bg-[#f5f5f5] lg:hidden z-10`}
       >
         {links.map((link) => (
-          <li className={mobileLinkClassNames}>
+          <li key={link.text} className={mobileLinkClassNames}>
             <Button variant="tertiary" to={link.to}>
               {link.text}
             </Button>
@@ -100,14 +100,14 @@ const TheNavbar = () => {
       {/* web */}
       <ul className="hidden lg:flex">
         {links.map((link) => (
-          <li className={linkClassNames}>
+          <li key={link.text} className={linkClassNames}>
             <Button variant="tertiary" to={link.to}>
               {link.text}
             </Button>
           </li>
         ))}
         <li className={linkClassNames}>
-          <Button>Livestream</Button>
+          <Button to="/the-wedding">Livestream</Button>
         </li>
       </ul>
     </nav>

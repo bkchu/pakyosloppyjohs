@@ -20,5 +20,5 @@ export const useEnterExitAnimation = (
     ...springProps,
   });
 
-  return [styles, ref];
+  return { style: styles, ref };
 };

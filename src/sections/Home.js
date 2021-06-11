@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { animated, useSpring, useTrail } from "react-spring";
+import { animated, useSpring } from "react-spring";
 import Button from "../components/Button/Button";
 import Grid from "../components/Grid/Grid";
 import Heading from "../components/Heading/Heading";
@@ -86,19 +86,19 @@ const Home = () => {
           from: { opacity: 0, x: 30 },
         };
 
-  const [polaroidSpring1, polaroidSpring1Ref] = useEnterExitAnimation({
+  const polaroidSpring1 = useEnterExitAnimation({
     springConfig: { mass: 11, tension: 2000, friction: 150 },
     delay: isPageWide ? 750 : 50,
     defineSpring: polaroidSpring,
   });
 
-  const [polaroidSpring2, polaroidSpring2Ref] = useEnterExitAnimation({
+  const polaroidSpring2 = useEnterExitAnimation({
     springConfig: { mass: 11, tension: 2000, friction: 150 },
     delay: isPageWide ? 900 : 50,
     defineSpring: polaroidSpring,
   });
 
-  const [polaroidSpring3, polaroidSpring3Ref] = useEnterExitAnimation({
+  const polaroidSpring3 = useEnterExitAnimation({
     springConfig: { mass: 11, tension: 2000, friction: 150 },
     delay: isPageWide ? 1050 : 50,
     defineSpring: polaroidSpring,
@@ -106,7 +106,7 @@ const Home = () => {
 
   const ctaSpring = useSpring({
     config: { mass: 9, tension: 2000, friction: 150 },
-    delay: 1450,
+    delay: isPageWide ? 1450 : 600,
     from: { y: 50, opacity: 0 },
     to: { y: 0, opacity: 1 },
   });
@@ -119,28 +119,20 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center">
             <AnimatedHeading {...headings[0]} style={headingSpring1} />
             <AnimatedHeading {...headings[1]} style={headingSpring2} />
-            <AnimatedButton className="my-16" style={ctaSpring}>
+            <AnimatedButton
+              to="/the-wedding"
+              className="my-16"
+              style={ctaSpring}
+            >
               Livestream
             </AnimatedButton>
           </div>
         </Grid.Span>
         <Grid.Span start={2} end={12}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <AnimatedPolaroid
-              {...polaroids[0]}
-              style={polaroidSpring1}
-              ref={polaroidSpring1Ref}
-            />
-            <AnimatedPolaroid
-              {...polaroids[1]}
-              style={polaroidSpring2}
-              ref={polaroidSpring2Ref}
-            />
-            <AnimatedPolaroid
-              {...polaroids[2]}
-              style={polaroidSpring3}
-              ref={polaroidSpring3Ref}
-            />
+            <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
+            <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
+            <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
           </div>
         </Grid.Span>
       </Grid>

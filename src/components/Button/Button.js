@@ -6,7 +6,9 @@ const Button = ({
   variant = "primary",
   className = "",
   to,
+  href,
   onClick,
+  children,
   ...props
 }) => {
   const base = clsx(
@@ -39,12 +41,14 @@ const Button = ({
 
   const _className = clsx(buttonStyles[variant], className);
 
-  return (
+  return href ? (
+    <a href={href} className={_className} {...props}>{children}</a>
+  ) : (
     <button
       className={_className}
       onClick={to ? () => navigate(to) : onClick}
       {...props}
-    />
+    >{children}</button>
   );
 };
 

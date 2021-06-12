@@ -1,11 +1,10 @@
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { animated, useSpring } from "react-spring";
 import Button from "../components/Button/Button";
 import Grid from "../components/Grid/Grid";
 import Heading from "../components/Heading/Heading";
+import Image from "../components/Image/Image";
 import Polaroid from "../components/Polaroid/Polaroid";
-import Spacer from "../components/Spacer/Spacer";
 import { useEnterExitAnimation } from "../hooks/useEnterExitAnimation";
 import { useMediaQuery } from "../hooks/useMediaQuery";
 
@@ -33,29 +32,40 @@ const polaroids = [
   {
     link: "/our-story",
     text: "OUR STORY",
+    className: "w-96",
     image: (
-      <StaticImage
-        src="../images/samgrace.jpg"
+      <Image
+        fileName="samgrace"
         alt="Sam and Grace"
-        placeholder="tracedSVG"
-        layout="fullWidth"
-        objectFit="cover"
-        objectPosition="right"
         className="polaroid-absolute"
+        objectPosition="90% 50%"
       />
     ),
   },
   {
     link: "/the-wedding",
     text: "THE WEDDING",
-    image:
-      "https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-0.3.5&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;s=eb9893e527fa8cd97cb29e216b7da793",
+    className: "w-96",
+    image: (
+      <Image
+        fileName="wedding1"
+        alt="Sam and Grace holding a flower bouquet together"
+        className="polaroid-absolute"
+      />
+    ),
   },
   {
     link: "/registry",
     text: "REGISTRY",
-    image:
-      "https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-0.3.5&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;s=eb9893e527fa8cd97cb29e216b7da793",
+    className: "w-96",
+    image: (
+      <Image
+        fileName="proposal3"
+        alt="Sam and Grace with a confetti popper"
+        className="polaroid-absolute"
+        objectPosition="75% 50%"
+      />
+    ),
   },
 ];
 
@@ -112,10 +122,9 @@ const Home = () => {
   });
 
   return (
-    <section className="pb-24">
+    <section className="py-12">
       <Grid>
         <Grid.Span start={2} end={12}>
-          <Spacer size="32" />
           <div className="flex flex-col justify-center items-center">
             <AnimatedHeading {...headings[0]} style={headingSpring1} />
             <AnimatedHeading {...headings[1]} style={headingSpring2} />

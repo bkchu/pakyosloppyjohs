@@ -13,7 +13,7 @@ const Registry = () => {
           <div className="flex flex-col lg:flex-row justify-center">
             <div className="w-full lg:w-2/5 h-[500px] lg:h-full mr-16 pt-16">
               <Image
-                fileName="registry-page"
+                fileName="waikiki"
                 className="rounded-3xl shadow-photo h-full"
               />
             </div>

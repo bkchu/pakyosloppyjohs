@@ -26,7 +26,7 @@ const Polaroid = forwardRef(({
 
   const renderContent = (
     <div className={_containerClassNames} ref={ref} {...props}>
-      <div className="aspect-w-1 aspect-h-1 mb-[10%]">
+      <div className="aspect-w-3 aspect-h-4 mb-[10%]">
         {typeof image === "string" ? (
           <img className="w-full h-full object-cover" src={image} alt={alt} />
         ) : (

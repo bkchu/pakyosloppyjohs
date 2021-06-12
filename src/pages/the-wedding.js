@@ -27,7 +27,7 @@ const TheWedding = () => {
             </Heading>
             <Spacer size="16" />
             <Image
-              fileName="the-wedding-page"
+              fileName="venue"
               className="w-full rounded-3xl shadow-photo mt-16 lg:mt-0"
             />
           </div>

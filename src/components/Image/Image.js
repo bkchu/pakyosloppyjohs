@@ -20,17 +20,17 @@ const Image = ({ fileName, ...props }) => {
     "date-3": "Date with Sam 3",
     "friends-1": "With close friends 1",
     "friends-2": "With close friends 2",
-    "the-wedding-page": "the couple's rings"
+    "the-wedding-page": "the couple's rings",
   };
 
   const data = useStaticQuery(graphql`
     {
-      allFile(filter: { extension: { eq: "jpeg" } }) {
+      allFile(filter: { extension: { regex: "/(jpeg|jpg|png|jpg)/i" } }) {
         nodes {
           childImageSharp {
             gatsbyImageData(
               placeholder: TRACED_SVG
-              formats: [AUTO, PNG]
+              formats: [AUTO]
               layout: FULL_WIDTH
             )
           }

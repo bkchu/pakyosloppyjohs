@@ -1,12 +1,88 @@
 [
   {
-    "sectionTitle": "The first date",
-    "sectionDate": "12/06/17",
-    "sectionImageFileNames": ["date-1", "date-2", "date-3"]
+    "sectionTitle": "just friends",
+    "sectionDate": "2017",
+    "sectionImageFileNames": ["justfriends1"]
   },
   {
-    "sectionTitle": "Double dates!!",
+    "sectionTitle": "day one",
+    "sectionDate": "10/15/17",
+    "sectionImageFileNames": ["dayone1", "dayone2", "dayone3"]
+  },
+  {
+    "sectionTitle": "dates",
+    "sectionDate": "10/15/17",
+    "sectionImageFileNames": ["date1", "date2", "date3", "date4", "date5"]
+  },
+  {
+    "sectionTitle": "1st anniversary",
+    "sectionDate": "10/15/17",
+    "sectionImageFileNames": ["firstanniv1", "firstanniv2"]
+  },
+  {
+    "sectionTitle": "adventures",
+    "sectionDate": "10/15/17",
+    "sectionImageFileNames": [
+      "adventure1",
+      "adventure2",
+      "adventure3",
+      "adventure4",
+      "adventure5",
+      "adventure6"
+    ]
+  },
+  {
+    "sectionTitle": "2nd anniversary",
+    "sectionDate": "10/15/17",
+    "sectionImageFileNames": ["secondanniv1"]
+  },
+  {
+    "sectionTitle": "wedding dates",
     "sectionDate": "02/14/18",
-    "sectionImageFileNames": ["friends-1", "friends-2"]
+    "sectionImageFileNames": [
+      "wedding1",
+      "wedding2",
+      "wedding3",
+      "wedding4",
+      "wedding5"
+    ]
+  },
+  {
+    "sectionTitle": "3rd anniversary",
+    "sectionDate": "02/14/18",
+    "sectionImageFileNames": ["thirdanniv1", "thirdanniv2"]
+  },
+  {
+    "sectionTitle": "triple threat",
+    "sectionDate": "02/14/18",
+    "sectionImageFileNames": [
+      "triple1",
+      "triple2",
+      "triple3",
+      "triple4",
+      "triple5"
+    ]
+  },
+  {
+    "sectionTitle": "family",
+    "sectionDate": "02/14/18",
+    "sectionImageFileNames": [
+      "family1",
+      "family2",
+      "family3",
+      "family4",
+      "family5"
+    ]
+  },
+  {
+    "sectionTitle": "he asked, she said \"yes\"",
+    "sectionDate": "03/11/21",
+    "sectionImageFileNames": [
+      "proposal1",
+      "proposal2",
+      "proposal3",
+      "proposal4",
+      "proposal5"
+    ]
   }
 ]

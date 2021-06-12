@@ -5,8 +5,8 @@ const TheNavigationLayout = ({ children }) => {
   return (
     <>
       <TheNavbar />
-      <main className="pt-24">
-        <div className="col-start-2 col-span-10">{children}</div>
+      <main className="pt-24 w-full">
+        <div className="col-start-2 col-span-10 w-full">{children}</div>
       </main>
     </>
   );

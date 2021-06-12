@@ -35,7 +35,7 @@ const polaroids = [
     text: "OUR STORY",
     image: (
       <StaticImage
-        src="../images/samgrace.jpeg"
+        src="../images/samgrace.jpg"
         alt="Sam and Grace"
         placeholder="tracedSVG"
         layout="fullWidth"

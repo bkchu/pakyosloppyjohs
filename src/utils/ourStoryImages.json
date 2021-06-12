@@ -54,12 +54,7 @@
   {
     "sectionTitle": "triple threat",
     "sectionDate": "02/14/18",
-    "sectionImageFileNames": [
-      "triple1",
-      "triple2",
-      "triple3",
-      "triple4",
-    ]
+    "sectionImageFileNames": ["triple1", "triple2", "triple3", "triple4"]
   },
   {
     "sectionTitle": "family",

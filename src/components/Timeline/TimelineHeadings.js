@@ -17,7 +17,7 @@ const TimelineHeadings = ({ date, title }) => {
   });
 
   return (
-    <AnimatedHeading start={2} span={10} {...headerSpring} className="mb-8">
+    <AnimatedHeading start={2} span={10} {...headerSpring} className="z-10 -mb-16">
       <Heading h="h5" as="p" className="text-center lg:text-left">
         {date}
       </Heading>

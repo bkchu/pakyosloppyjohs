@@ -16,8 +16,8 @@ const Timeline = ({ timeline }) => {
       "items-center",
       "px-16",
       "last:pb-36",
+      "pt-16",
       "lg:pb-36",
-      "lg:pt-16",
       section.sectionImageFileNames.length > 4
         ? ["max-w-full", "overflow-x-auto"]
         : null

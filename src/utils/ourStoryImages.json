@@ -6,7 +6,7 @@
       {
         "fileName": "justfriends1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "we met at church"
       }
     ]
   },
@@ -17,17 +17,17 @@
       {
         "fileName": "dayone1",
         "objectPosition": "",
-        "caption": ""
-      },
-      {
-        "fileName": "dayone2",
-        "objectPosition": "",
-        "caption": ""
+        "caption": "first selfie ever!"
       },
       {
         "fileName": "dayone3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "sushi sake"
+      },
+      {
+        "fileName": "dayone2",
+        "objectPosition": "",
+        "caption": "dessert"
       }
     ]
   },
@@ -37,27 +37,27 @@
       {
         "fileName": "date1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "six flags"
       },
       {
         "fileName": "date2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "spa night"
       },
       {
         "fileName": "date3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "archery"
       },
       {
         "fileName": "date4",
         "objectPosition": "",
-        "caption": ""
+        "caption": "state fair"
       },
       {
         "fileName": "date5",
         "objectPosition": "",
-        "caption": ""
+        "caption": "fort worth zoo"
       }
     ]
   },
@@ -68,12 +68,12 @@
       {
         "fileName": "firstanniv1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "roses and sushi"
       },
       {
         "fileName": "firstanniv2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "starting a tradition"
       }
     ]
   },
@@ -83,32 +83,32 @@
       {
         "fileName": "adventure1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "california"
       },
       {
         "fileName": "adventure2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "kayaking in waco"
       },
       {
         "fileName": "adventure3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "counselors at youth retreat"
       },
       {
         "fileName": "adventure4",
         "objectPosition": "",
-        "caption": ""
+        "caption": "turner falls"
       },
       {
         "fileName": "adventure5",
-        "objectPosition": "",
-        "caption": ""
+        "objectPosition": "50% 50%",
+        "caption": "glamping in red oak"
       },
       {
         "fileName": "adventure6",
         "objectPosition": "",
-        "caption": ""
+        "caption": "camping at lake texoma"
       }
     ]
   },
@@ -119,12 +119,17 @@
       {
         "fileName": "secondanniv1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "year two"
       },
       {
         "fileName": "secondanniv2",
-        "objectPosition": "center bottom",
-        "caption": ""
+        "objectPosition": "",
+        "caption": "keeping our tradition"
+      },
+      {
+        "fileName": "secondanniv3",
+        "objectPosition": "",
+        "caption": "dallas aquarium"
       }
     ]
   },
@@ -134,27 +139,27 @@
       {
         "fileName": "wedding1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "stephen and chanhee's wedding"
       },
       {
         "fileName": "wedding2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "grace received the bouquet!"
       },
       {
         "fileName": "wedding3",
         "objectPosition": "",
-        "caption": ""
-      },
-      {
-        "fileName": "wedding4",
-        "objectPosition": "",
-        "caption": ""
+        "caption": "at the adolphus hotel"
       },
       {
         "fileName": "wedding5",
         "objectPosition": "",
-        "caption": ""
+        "caption": "congrats christine and huy"
+      },
+      {
+        "fileName": "wedding4",
+        "objectPosition": "",
+        "caption": "heh"
       }
     ]
   },
@@ -165,7 +170,22 @@
       {
         "fileName": "thirdanniv1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "third time's the charm"
+      },
+      {
+        "fileName": "thirdanniv2",
+        "objectPosition": "",
+        "caption": "picnic date"
+      },
+      {
+        "fileName": "thirdanniv3",
+        "objectPosition": "",
+        "caption": "at arbor hills"
+      },
+      {
+        "fileName": "thirdanniv4",
+        "objectPosition": "",
+        "caption": "we like sushi"
       }
     ]
   },
@@ -175,27 +195,27 @@
       {
         "fileName": "triple1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "with our dear friends"
       },
       {
         "fileName": "triple2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "we love waco"
       },
       {
         "fileName": "triple3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "and baylor"
       },
       {
         "fileName": "triple4",
         "objectPosition": "",
-        "caption": ""
+        "caption": "and more sushi at the lake"
       },
       {
         "fileName": "triple5",
         "objectPosition": "",
-        "caption": ""
+        "caption": "and movie nights!"
       }
     ]
   },
@@ -205,58 +225,58 @@
       {
         "fileName": "family1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "camping at lake dallas"
       },
       {
         "fileName": "family2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "road trip with chan!"
       },
       {
         "fileName": "family3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "ellen's graduation"
       },
       {
         "fileName": "family4",
         "objectPosition": "",
-        "caption": ""
+        "caption": "thanksgiving 2020"
       },
       {
         "fileName": "family5",
         "objectPosition": "",
-        "caption": ""
+        "caption": "chan's graduation"
       }
     ]
   },
   {
-    "sectionTitle": "he asked, she said \"yes\"",
+    "sectionTitle": "the proposal",
     "sectionDate": "03/11/21",
     "sectionImageFiles": [
       {
         "fileName": "proposal1",
         "objectPosition": "",
-        "caption": ""
+        "caption": "he asked..."
       },
       {
         "fileName": "proposal2",
         "objectPosition": "",
-        "caption": ""
+        "caption": "...and she said yes!"
       },
       {
         "fileName": "proposal3",
         "objectPosition": "",
-        "caption": ""
+        "caption": "woohoo!"
       },
       {
         "fileName": "proposal4",
         "objectPosition": "",
-        "caption": ""
+        "caption": "surprise engagement party"
       },
       {
         "fileName": "proposal5",
         "objectPosition": "",
-        "caption": ""
+        "caption": "thank you friends <3"
       }
     ]
   }

@@ -93,7 +93,7 @@ const TheNavbar = () => {
           </li>
         ))}
         <li className={clsx(mobileLinkClassNames, "py-4 pr-3")}>
-          <Button>Livestream</Button>
+          <Button to="/the-wedding">Livestream</Button>
         </li>
       </ul>
 

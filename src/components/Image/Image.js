@@ -31,8 +31,7 @@ const Image = ({ fileName, ...props }) => {
             gatsbyImageData(
               placeholder: TRACED_SVG
               formats: [AUTO]
-              layout: CONSTRAINED
-              width: 750
+              layout: FULL_WIDTH
             )
           }
           name

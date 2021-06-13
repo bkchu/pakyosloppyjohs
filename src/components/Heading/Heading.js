@@ -13,7 +13,7 @@ const Heading = ({
   const headingClassNames = {
     h1: clsx(
       "font-serif",
-      "text-3xl",
+      "text-4xl",
       "md:text-[56px]",
       "font-bold",
       "leading-tight"

@@ -29,8 +29,8 @@ const Timeline = ({ timeline }) => {
         />
         <Grid.Span start={1} span={12} className="mb-36 last:mb-0">
           <div className={sectionClsx}>
-            {section.sectionImageFileNames.map((fileName) => (
-              <TimelinePhoto key={fileName} fileName={fileName} />
+            {section.sectionImageFiles.map((file) => (
+              <TimelinePhoto key={file.fileName} {...file} />
             ))}
           </div>
         </Grid.Span>

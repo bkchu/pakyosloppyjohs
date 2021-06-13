@@ -6,7 +6,8 @@ import Heading from "../components/Heading/Heading";
 import Image from "../components/Image/Image";
 import Polaroid from "../components/Polaroid/Polaroid";
 import { useEnterExitAnimation } from "../hooks/useEnterExitAnimation";
-import { useMediaQuery } from "../hooks/useMediaQuery";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import clsx from "clsx";
 
 const AnimatedHeading = animated(Heading);
 const AnimatedPolaroid = animated(Polaroid);
@@ -70,7 +71,7 @@ const polaroids = [
 ];
 
 const Home = () => {
-  const isPageWide = useMediaQuery("(min-width: 800px)");
+  const isPageWide = useMediaQuery("(min-width: 1280px)");
   const headingSpring1 = useSpring({
     config: { mass: 9, tension: 2000, friction: 150 },
     delay: 300,
@@ -85,16 +86,10 @@ const Home = () => {
     to: { x: 0, opacity: 1 },
   });
 
-  const polaroidSpring = (inView) =>
-    isPageWide
-      ? {
-          y: inView ? 0 : 50,
-          from: { opacity: 0, y: 50 },
-        }
-      : {
-          x: inView ? 0 : 30,
-          from: { opacity: 0, x: 30 },
-        };
+  const polaroidSpring = (inView) => ({
+    y: inView ? 0 : 50,
+    from: { opacity: 0, y: 50 },
+  });
 
   const polaroidSpring1 = useEnterExitAnimation({
     springConfig: { mass: 11, tension: 2000, friction: 150 },
@@ -121,10 +116,21 @@ const Home = () => {
     to: { y: 0, opacity: 1 },
   });
 
+  const photoLinkClasses = clsx(
+    "flex",
+    "flex-col",
+    "xl:flex-row",
+    "space-y-6",
+    "xl:space-y-0",
+    "xl:space-x-12",
+    "items-center",
+    "justify-center"
+  );
+
   return (
-    <section className="py-12">
+    <section className="pt-12 pb-36 xl:py-12">
       <Grid>
-        <Grid.Span start={2} end={12}>
+        <Grid.Span start={2} span={10}>
           <div className="flex flex-col justify-center items-center">
             <AnimatedHeading {...headings[0]} style={headingSpring1} />
             <AnimatedHeading {...headings[1]} style={headingSpring2} />
@@ -137,8 +143,8 @@ const Home = () => {
             </AnimatedButton>
           </div>
         </Grid.Span>
-        <Grid.Span start={2} end={12}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <Grid.Span start={1} span={12}>
+          <div className={photoLinkClasses}>
             <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
             <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
             <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />

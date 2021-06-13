@@ -32,7 +32,7 @@ const Image = ({ fileName, ...props }) => {
               placeholder: TRACED_SVG
               formats: [AUTO]
               layout: CONSTRAINED
-              width: 350
+              width: 750
             )
           }
           name

@@ -2,80 +2,262 @@
   {
     "sectionTitle": "just friends",
     "sectionDate": "2017",
-    "sectionImageFileNames": ["justfriends1"]
+    "sectionImageFiles": [
+      {
+        "fileName": "justfriends1",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "day one",
     "sectionDate": "10/15/17",
-    "sectionImageFileNames": ["dayone1", "dayone2", "dayone3"]
+    "sectionImageFiles": [
+      {
+        "fileName": "dayone1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "dayone2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "dayone3",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "dates",
-    "sectionDate": "10/15/17",
-    "sectionImageFileNames": ["date1", "date2", "date3", "date4", "date5"]
+    "sectionImageFiles": [
+      {
+        "fileName": "date1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "date2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "date3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "date4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "date5",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "1st anniversary",
-    "sectionDate": "10/15/17",
-    "sectionImageFileNames": ["firstanniv1", "firstanniv2"]
+    "sectionDate": "10/15/18",
+    "sectionImageFiles": [
+      {
+        "fileName": "firstanniv1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "firstanniv2",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "adventures",
-    "sectionDate": "10/15/17",
-    "sectionImageFileNames": [
-      "adventure1",
-      "adventure2",
-      "adventure3",
-      "adventure4",
-      "adventure6"
+    "sectionImageFiles": [
+      {
+        "fileName": "adventure1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "adventure2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "adventure3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "adventure4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "adventure5",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "adventure6",
+        "objectPosition": "",
+        "caption": ""
+      }
     ]
   },
   {
     "sectionTitle": "2nd anniversary",
-    "sectionDate": "10/15/17",
-    "sectionImageFileNames": ["secondanniv1"]
+    "sectionDate": "10/15/19",
+    "sectionImageFiles": [
+      {
+        "fileName": "secondanniv1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "secondanniv2",
+        "objectPosition": "center bottom",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "wedding dates",
-    "sectionDate": "02/14/18",
-    "sectionImageFileNames": [
-      "wedding1",
-      "wedding2",
-      "wedding3",
-      "wedding4",
-      "wedding5"
+    "sectionImageFiles": [
+      {
+        "fileName": "wedding1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "wedding2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "wedding3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "wedding4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "wedding5",
+        "objectPosition": "",
+        "caption": ""
+      }
     ]
   },
   {
     "sectionTitle": "3rd anniversary",
-    "sectionDate": "02/14/18",
-    "sectionImageFileNames": ["thirdanniv1", "thirdanniv2"]
+    "sectionDate": "02/14/20",
+    "sectionImageFiles": [
+      {
+        "fileName": "thirdanniv1",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "triple threat",
-    "sectionDate": "02/14/18",
-    "sectionImageFileNames": ["triple1", "triple2", "triple3", "triple4"]
+    "sectionImageFiles": [
+      {
+        "fileName": "triple1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "triple2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "triple3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "triple4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "triple5",
+        "objectPosition": "",
+        "caption": ""
+      }
+    ]
   },
   {
     "sectionTitle": "family",
-    "sectionDate": "02/14/18",
-    "sectionImageFileNames": [
-      "family1",
-      "family2",
-      "family3",
-      "family4",
-      "family5"
+    "sectionImageFiles": [
+      {
+        "fileName": "family1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "family2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "family3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "family4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "family5",
+        "objectPosition": "",
+        "caption": ""
+      }
     ]
   },
   {
     "sectionTitle": "he asked, she said \"yes\"",
     "sectionDate": "03/11/21",
-    "sectionImageFileNames": [
-      "proposal1",
-      "proposal2",
-      "proposal3",
-      "proposal4",
-      "proposal5"
+    "sectionImageFiles": [
+      {
+        "fileName": "proposal1",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "proposal2",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "proposal3",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "proposal4",
+        "objectPosition": "",
+        "caption": ""
+      },
+      {
+        "fileName": "proposal5",
+        "objectPosition": "",
+        "caption": ""
+      }
     ]
   }
 ]

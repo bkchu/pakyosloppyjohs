@@ -1,13 +1,16 @@
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import clsx from "clsx";
 import React from "react";
 import { animated, useSpring } from "react-spring";
 import Button from "../components/Button/Button";
 import Grid from "../components/Grid/Grid";
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image/Image";
+import Logo from "../components/Logo/Logo";
 import Polaroid from "../components/Polaroid/Polaroid";
+import Seo from "../components/SEO/SEO";
+import Spacer from "../components/Spacer/Spacer";
 import { useEnterExitAnimation } from "../hooks/useEnterExitAnimation";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
-import clsx from "clsx";
 
 const AnimatedHeading = animated(Heading);
 const AnimatedPolaroid = animated(Polaroid);
@@ -17,15 +20,9 @@ const headings = [
   {
     h: "h1",
     element: "h1",
-    className: "flex items-center justify-center text-center",
-    children: "“In Hawaii? Wait, really?!”",
-  },
-  {
-    h: "h2",
-    as: "h2",
-    color: "text-disabled-text",
-    className: "flex items-center justify-center",
-    children: "Sam & Grace",
+    className: "flex items-center justify-center text-center ",
+    children:
+      "Celebrate our marriage with us!",
   },
 ];
 
@@ -79,13 +76,6 @@ const Home = () => {
     to: { x: 0, opacity: 1 },
   });
 
-  const headingSpring2 = useSpring({
-    config: { mass: 9, tension: 2000, friction: 150 },
-    delay: 500,
-    from: { x: -50, opacity: 0 },
-    to: { x: 0, opacity: 1 },
-  });
-
   const polaroidSpring = (inView) => ({
     y: inView ? 0 : 50,
     from: { opacity: 0, y: 50 },
@@ -128,30 +118,37 @@ const Home = () => {
   );
 
   return (
-    <section className="pt-12 pb-36 xl:py-12">
-      <Grid>
-        <Grid.Span start={2} span={10}>
-          <div className="flex flex-col justify-center items-center">
-            <AnimatedHeading {...headings[0]} style={headingSpring1} />
-            <AnimatedHeading {...headings[1]} style={headingSpring2} />
-            <AnimatedButton
-              to="/the-wedding"
-              className="my-16"
-              style={ctaSpring}
-            >
-              Livestream
-            </AnimatedButton>
-          </div>
-        </Grid.Span>
-        <Grid.Span start={1} span={12}>
-          <div className={photoLinkClasses}>
-            <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
-            <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
-            <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
-          </div>
-        </Grid.Span>
-      </Grid>
-    </section>
+    <>
+      <Seo title="Home" />
+
+      <section className="pt-12 pb-36 xl:py-12">
+        <Grid>
+          <Grid.Span start={2} span={10}>
+            <div className="flex flex-col lg:flex-row items-center">
+              <Logo className="w-4/5 lg:w-1/2 h-auto lg:h-96 my-12 lg:my-0" />
+              <div className="w-full lg:w-1/2 flex flex-col justify-center items-center my-6">
+                <AnimatedHeading {...headings[0]} style={headingSpring1} />
+                <Spacer axis="v" size={8} />
+                <AnimatedButton
+                  to="/the-wedding"
+                  style={ctaSpring}
+                  className="mb-12"
+                >
+                  Livestream
+                </AnimatedButton>
+              </div>
+            </div>
+          </Grid.Span>
+          <Grid.Span start={1} span={12}>
+            <div className={photoLinkClasses}>
+              <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
+              <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
+              <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
+            </div>
+          </Grid.Span>
+        </Grid>
+      </section>
+    </>
   );
 };
 

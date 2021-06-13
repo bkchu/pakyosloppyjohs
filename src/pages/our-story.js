@@ -7,7 +7,7 @@ import timeline from "../utils/ourStoryImages.json";
 
 const OurStory = () => {
   return (
-    <TheNavigationLayout>
+    <TheNavigationLayout title="Our Story">
       <Grid>
         <Spacer size="14" />
         <Timeline timeline={timeline} />

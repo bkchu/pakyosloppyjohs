@@ -33,7 +33,7 @@ const TheNavbar = () => {
   );
 
   return (
-    <nav className="fixed w-screen font-display p-6 flex items-center justify-between z-50 bg-[#f5f5f5] shadow-lg h-24">
+    <nav className="fixed w-screen font-display px-6 py-3 lg:py-6 flex items-center justify-between z-50 bg-[#f5f5f5] shadow-lg lg:h-24">
       <Heading h="h1" as="h1">
         <Link to="/">Sam & Grace</Link>
       </Heading>

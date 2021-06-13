@@ -14,7 +14,7 @@ const Heading = ({
     h1: clsx(
       "font-serif",
       "text-4xl",
-      "md:text-[56px]",
+      "md:text-[48px]",
       "font-bold",
       "leading-tight"
     ),

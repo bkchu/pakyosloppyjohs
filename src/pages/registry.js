@@ -7,7 +7,7 @@ import TheNavigationLayout from "../layouts/TheNavigationLayout";
 
 const Registry = () => {
   return (
-    <TheNavigationLayout>
+    <TheNavigationLayout title="Registry">
       <Grid className="pb-24">
         <Grid.Span className="h-full" start={2} span={10}>
           <div className="flex flex-col lg:flex-row justify-center">

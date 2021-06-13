@@ -17,7 +17,7 @@ const TheWedding = () => {
   };
 
   return (
-    <TheNavigationLayout>
+    <TheNavigationLayout title="The Wedding">
       <Grid className="md:min-h-[calc(100vh-96px)] pb-24">
         <Grid.Span className="h-full" start={2} span={[10, 10, 4, 4, 4]}>
           <div className="h-full flex flex-col-reverse lg:flex-col items-end justify-center">

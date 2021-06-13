@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Sam & Grace",
+    title: `Sam & Grace`,
+    description: `This is the wedding site for Sam and Grace.`,
+    author: `brandon@bkchu.dev`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -10,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/favicon.svg",
       },
     },
     "gatsby-plugin-sharp",

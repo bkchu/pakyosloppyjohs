@@ -30,7 +30,6 @@ const polaroids = [
   {
     link: "/our-story",
     text: "OUR STORY",
-    className: "w-96",
     image: (
       <Image
         fileName="samgrace"
@@ -43,7 +42,6 @@ const polaroids = [
   {
     link: "/the-wedding",
     text: "THE WEDDING",
-    className: "w-96",
     image: (
       <Image
         fileName="wedding1"
@@ -55,7 +53,6 @@ const polaroids = [
   {
     link: "/registry",
     text: "REGISTRY",
-    className: "w-96",
     image: (
       <Image
         fileName="proposal3"
@@ -141,9 +138,15 @@ const Home = () => {
           </Grid.Span>
           <Grid.Span start={1} span={12}>
             <div className={photoLinkClasses}>
-              <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
-              <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
-              <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
+              <div className="w-96 p-6">
+                <AnimatedPolaroid {...polaroids[0]} {...polaroidSpring1} />
+              </div>
+              <div className="w-96 p-6">
+                <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
+              </div>
+              <div className="w-96 p-6">
+                <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
+              </div>
             </div>
           </Grid.Span>
           <Grid.Span

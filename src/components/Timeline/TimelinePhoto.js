@@ -15,7 +15,7 @@ const TimelinePhoto = ({ fileName, caption, objectPosition }) => {
   });
 
   return (
-    <a.div className="" {...photoSpringDef}>
+    <a.div {...photoSpringDef}>
       <Polaroid
         className="w-96 lg:w-80"
         text={caption}

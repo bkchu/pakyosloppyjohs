@@ -50,11 +50,33 @@ const TheWedding = () => {
         </Grid.Span>
 
         <Grid.Span
-          className="h-full mt-12 lg:mt-0"
+          className="h-full mt-4 lg:mt-0"
           start={[2, 2, 8, 8, 8]}
           span={[10, 10, 4, 4, 4]}
         >
           <div className="h-full flex flex-col items-start justify-center">
+            <div className="mb-8 bg-gray-200 px-4 py-4 -mx-4 rounded-lg flex">
+              <div className="h-6 w-6 mr-2 text-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <Heading h="body-sm" className=" font-semibold">
+                This is the date and time of the wedding in your current
+                timezone.
+              </Heading>
+            </div>
             <Heading h="eyebrow" as="p">
               Date
             </Heading>
@@ -75,9 +97,6 @@ const TheWedding = () => {
                 timeZoneName: "short",
               })}
             </Heading>
-            <span className="text-xs">
-              This is the time of the wedding in your current timezone.
-            </span>
             <Spacer size="6" />
             {isPasswordInputEnabled ? (
               <>

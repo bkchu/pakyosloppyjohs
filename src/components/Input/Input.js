@@ -7,6 +7,7 @@ const Input = ({ type, ...props }) => {
   const _className = [
     "py-3",
     "px-6",
+    { "pr-12": type === "password" },
     "rounded-full",
     "font-extrabold",
     "font-sans",

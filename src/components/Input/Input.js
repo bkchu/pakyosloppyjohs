@@ -2,7 +2,7 @@ import clsx from "clsx";
 import React, { useState } from "react";
 
 const Input = ({ type, ...props }) => {
-  const [isPasswordVisible, setIsPasswordVisible] = useState();
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   const _className = [
     "py-3",

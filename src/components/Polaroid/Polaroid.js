@@ -20,7 +20,8 @@ const Polaroid = forwardRef(
       "bg-gradient-to-b",
       "from-[#ece9e6]",
       "to-[#fafafa]",
-      "p-[5%]",
+      "px-[6%]",
+      "py-[10%]",
       "transition-shadow",
       "duration-300",
       link ? "shadow-md hover:shadow-card" : "shadow-card",
@@ -38,7 +39,7 @@ const Polaroid = forwardRef(
           )}
         </div>
 
-        <Heading h="h4" as="p" className="text-center mb-[8%]">
+        <Heading h="h4" as="p" className="text-center">
           {text !== "" ? text : <>&nbsp;</>}
         </Heading>
       </div>

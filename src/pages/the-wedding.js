@@ -11,7 +11,7 @@ const TheWedding = () => {
   const [isPasswordInputEnabled, setIsPasswordInputEnabled] = useState();
 
   const onPasswordChange = (event) => {
-    if (event.target.value.toLowerCase().trim() === "pakyosloppyjohs") {
+    if (event.target.value.toLowerCase().trim() === "aloha2021") {
       window.location.replace("https://www.wedhawaii.com/samuel-and-grace");
     }
   };

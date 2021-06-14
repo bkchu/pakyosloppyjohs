@@ -1,5 +1,6 @@
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import clsx from "clsx";
+import { Link } from "gatsby";
 import React from "react";
 import { animated, useSpring } from "react-spring";
 import Button from "../components/Button/Button";
@@ -21,8 +22,7 @@ const headings = [
     h: "h1",
     element: "h1",
     className: "flex items-center justify-center text-center ",
-    children:
-      "Celebrate our marriage with us!",
+    children: "Celebrate our marriage with us!",
   },
 ];
 
@@ -145,6 +145,15 @@ const Home = () => {
               <AnimatedPolaroid {...polaroids[1]} {...polaroidSpring2} />
               <AnimatedPolaroid {...polaroids[2]} {...polaroidSpring3} />
             </div>
+          </Grid.Span>
+          <Grid.Span
+            start={1}
+            span={12}
+            className="flex items-center justify-center mt-12"
+          >
+            <Button variant="secondary" to="/special-thanks">
+              Special Thanks To
+            </Button>
           </Grid.Span>
         </Grid>
       </section>

@@ -26,7 +26,7 @@ const Heading = ({
       "text-2xl",
       "my-6"
     ),
-    h4: clsx("text-xs", "laptop:text-base", "leading-none", "tracking-widest"),
+    h4: clsx("text-base", "laptop:text-base", "leading-none", "tracking-widest", "leading-normal"),
     h5: clsx("text-[12px]", "leading-none", "tracking-wide"),
     p: clsx("font-serif", "text-base", "my-2", "leading-golden"),
     body: clsx("font-serif", "text-2xl"),

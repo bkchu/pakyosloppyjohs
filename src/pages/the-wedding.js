@@ -7,6 +7,8 @@ import Input from "../components/Input/Input";
 import Spacer from "../components/Spacer/Spacer";
 import TheNavigationLayout from "../layouts/TheNavigationLayout";
 
+const WEDDING_IN_UTC_TIME = new Date(Date.UTC(2021, 6, 2, 2));
+
 const TheWedding = () => {
   const [isPasswordInputEnabled, setIsPasswordInputEnabled] = useState();
 
@@ -21,7 +23,11 @@ const TheWedding = () => {
       <Grid className="md:min-h-[calc(100vh-96px)] pb-24">
         <Grid.Span className="h-full" start={2} span={[10, 10, 4, 4, 4]}>
           <div className="h-full flex flex-col-reverse lg:flex-col items-end justify-center">
-            <Heading h="body-md" as="p" className="text-left lg:text-right text-2xl">
+            <Heading
+              h="body-md"
+              as="p"
+              className="text-left lg:text-right text-2xl"
+            >
               We can’t say we do without all of you! Please join us, virtually,
               as we exchange our vows.
             </Heading>
@@ -53,15 +59,25 @@ const TheWedding = () => {
               Date
             </Heading>
             <Heading h="h1" as="h3">
-              Thursday, July 1, 2021
+              {WEDDING_IN_UTC_TIME.toLocaleDateString(undefined, {
+                weekday: "long",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
             </Heading>
             <Spacer size="6" />
             <Heading h="eyebrow" as="p">
               Time
             </Heading>
             <Heading h="h1" as="h3">
-              9:00pm CST
+              {WEDDING_IN_UTC_TIME.toLocaleTimeString([], {
+                timeZoneName: "short",
+              })}
             </Heading>
+            <span className="text-xs">
+              This is the time of the wedding in your current timezone.
+            </span>
             <Spacer size="6" />
             {isPasswordInputEnabled ? (
               <>
@@ -69,7 +85,11 @@ const TheWedding = () => {
                   Please enter the password provided on your invitation to go to
                   the livestreaming site.
                 </Heading>
-                <Input type="password" onChange={onPasswordChange} placeholder="Password"/>
+                <Input
+                  type="password"
+                  onChange={onPasswordChange}
+                  placeholder="Password"
+                />
               </>
             ) : (
               <Button onClick={() => setIsPasswordInputEnabled(true)}>

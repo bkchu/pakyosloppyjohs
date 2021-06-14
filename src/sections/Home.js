@@ -1,6 +1,5 @@
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import clsx from "clsx";
-import { Link } from "gatsby";
 import React from "react";
 import { animated, useSpring } from "react-spring";
 import Button from "../components/Button/Button";

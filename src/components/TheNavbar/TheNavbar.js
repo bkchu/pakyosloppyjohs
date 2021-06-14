@@ -33,7 +33,7 @@ const TheNavbar = () => {
   );
 
   return (
-    <nav className="fixed w-screen font-display px-6 py-3 lg:py-6 flex items-center justify-between z-50 bg-[#f5f5f5] shadow-lg lg:h-24">
+    <nav className="fixed top-0 w-screen font-display px-6 py-3 lg:py-6 flex items-center justify-between z-50 bg-[#f5f5f5] shadow-lg lg:h-24">
       <Heading h="h1" as="h1">
         <Link to="/">Sam & Grace</Link>
       </Heading>
@@ -83,7 +83,7 @@ const TheNavbar = () => {
       <ul
         className={` ${
           isOpen ? "absolute" : "hidden"
-        } top-24 left-0 w-full p-3 bg-[#f5f5f5] lg:hidden z-10`}
+        } top-[72px] left-0 w-full p-3 bg-[#f5f5f5] lg:hidden z-10`}
       >
         {links.map((link) => (
           <li key={link.text} className={mobileLinkClassNames}>

@@ -19,7 +19,7 @@ const peopleToThank = [
   {
     caption: "Brandon Chung",
     fileName: "brandon",
-    thankYouMessage: "For building this website within a week",
+    thankYouMessage: "For building this website within a week, while making it really pretty",
   },
 ];
 

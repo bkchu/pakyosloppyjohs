@@ -50,7 +50,6 @@ const SpecialThanks = () => {
                   }
                 />
               </div>
-              {/* <Heading>{person.thankYouMessage}</Heading> */}
             </Grid.Span>
             <Grid.Span
               start={[2, 2, 7, 7, 7]}

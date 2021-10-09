@@ -19,7 +19,7 @@ const peopleToThank = [
   {
     caption: "Brandon Chung",
     fileName: "brandon",
-    thankYouMessage: "For building this website within a week",
+    thankYouMessage: "For building this website within a week, while making it really pretty",
   },
 ];
 
@@ -36,9 +36,6 @@ const SpecialThanks = () => {
         {peopleToThank.map((person) => (
           <>
             <Grid.Span start={[2, 2, 4, 4, 4]} span={[10, 10, 3, 3, 3]}>
-              {/* <Heading h="h2" className="mb-4">
-                {person.caption}
-              </Heading> */}
               <div className="max-w-md lg:w-64 mx-auto lg:ml-auto">
                 <Polaroid
                   text={person.caption}
